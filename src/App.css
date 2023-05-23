@@ -1,0 +1,33 @@
+.app{
+  background-image: url("/public/images/img1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+}
+
+.app.img1{
+  background-image: url(/public/images/img1.jpg);
+}
+
+.app.img2{
+  background-image: url(/public/images/img2.jpg);
+}
+
+.app.img3{
+  background-image: url(/public/images/img3.jpg);
+}
+
+.app.img4{
+  background-image: url(/public/images/img4.jpg);
+}
+
+.app--container{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  padding: 0 10px;
+}
