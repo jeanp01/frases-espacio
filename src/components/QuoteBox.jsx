@@ -8,7 +8,7 @@ const QuoteBox = ({phrase, handleChangeQuote}) => {
         <p className="parrafo">{phrase}</p>
         </article>
 
-        <button className="quotebox--btn" onClick={handleChangeQuote}><img src="/public/images/Vector.png" alt="" /></button>
+        <button className="quotebox--btn" onClick={handleChangeQuote}><img src="/images/Vector.png" alt="" /></button>
 
     </section>
     )

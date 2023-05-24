@@ -19,7 +19,7 @@ function App() {
   return (
   <main className={`app ${bgImage}`}>
     <section className='app--container'>
-      <img src="/public/images/INFOGALAX.png" alt="infogalax" />
+      <img src="/images/INFOGALAX.png" alt="infogalax" />
 
       <QuoteBox handleChangeQuote={handleChangeQuote} phrase = {quote.phrase}/>
       
