@@ -22,9 +22,12 @@ h6 {
 
 img {
   max-width: 100%;
+  padding: 20px;
 }
 
 footer{
   color: white;
+  padding: 15px;
+  font-size: auto;
 }
 
